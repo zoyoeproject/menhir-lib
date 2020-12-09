@@ -1,0 +1,22 @@
+{
+  "name": "menhir-lib",
+  "version": "1.0.0",
+  "description": "menhir runtime library",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zoyoeproject/menhir-lib.git"
+  },
+  "author": "xgao@zoyoe.com <xgao@zoyoe.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "bsb": "bsb -make-world"
+    "postinstall": "bsb"
+  },
+  "devDependencies": {
+    "bs-platform": "^8.2.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
