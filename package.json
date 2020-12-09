@@ -11,7 +11,7 @@
   "scripts": {
     "clean": "bsb -clean-world",
     "bsb": "bsb -make-world"
-    "postinstall": "bsb"
+    "postinstall": "bsb -make-world"
   },
   "devDependencies": {
     "bs-platform": "^8.2.0",
