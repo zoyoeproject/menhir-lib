@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "clean": "bsb -clean-world",
-    "bsb": "bsb -make-world"
+    "bsb": "bsb -make-world",
     "postinstall": "bsb -make-world"
   },
   "devDependencies": {
